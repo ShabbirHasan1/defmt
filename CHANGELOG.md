@@ -7,9 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+- [#848]: `decoder`: improve default format
 - [#847]: `decoder`: Fix log format width specifier not working as expected
 - [#845]: `decoder`: fix println!() records being printed with formatting
 
+[#848]: https://github.com/knurling-rs/defmt/pull/848
 [#847]: https://github.com/knurling-rs/defmt/pull/847
 [#845]: https://github.com/knurling-rs/defmt/pull/845
 
