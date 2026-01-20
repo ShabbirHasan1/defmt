@@ -15,7 +15,7 @@ version = "1.0.0"
 [dependencies]
 anyhow = "1"
 clap = { version = "4.0", features = ["derive", "env"] }
-defmt-decoder = { version = "=1.0.0", path = "../decoder" }
+defmt-decoder = { version = "1", path = "../decoder" }
 goblin = "0.9"
 log = "0.4"
 notify = "8"

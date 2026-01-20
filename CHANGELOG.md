@@ -577,7 +577,8 @@ Initial release
 
 > Decodes defmt log frames
 
-[defmt-decoder-next]: https://github.com/knurling-rs/defmt/compare/defmt-decoder-v1.0.0...main
+[defmt-decoder-next]: https://github.com/knurling-rs/defmt/compare/defmt-decoder-v1.0.1...main
+[defmt-decoder-v1.1.0]: https://github.com/knurling-rs/defmt/releases/tag/defmt-decoder-v1.1.0
 [defmt-decoder-v1.0.0]: https://github.com/knurling-rs/defmt/releases/tag/defmt-decoder-v1.0.0
 [defmt-decoder-v0.4.0]: https://github.com/knurling-rs/defmt/releases/tag/defmt-decoder-v0.4.0
 [defmt-decoder-v0.3.11]: https://github.com/knurling-rs/defmt/releases/tag/defmt-decoder-v0.3.11
@@ -600,6 +601,8 @@ Initial release
 [defmt-decoder-v0.1.0]: https://github.com/knurling-rs/defmt/releases/tag/defmt-decoder-v0.1.0
 
 ### [defmt-decoder-next]
+
+### [defmt-decoder-v1.1.0] (2026-01-20)
 
 * [#1004] decoder: add `Send + Sync` bound to returned `StreamDecoder`
 * [#990] improve version mismatch error message, don't mention probe-run.
