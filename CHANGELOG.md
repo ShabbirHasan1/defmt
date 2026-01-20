@@ -498,6 +498,7 @@ Initial release
 > A tool that decodes defmt logs and prints them to the console
 
 [defmt-print-next]: https://github.com/knurling-rs/defmt/compare/defmt-print-v1.0.0...main
+[defmt-print-v1.1.0]: https://github.com/knurling-rs/defmt/releases/tag/defmt-print-v1.1.0
 [defmt-print-v1.0.0]: https://github.com/knurling-rs/defmt/releases/tag/defmt-print-v1.0.0
 [defmt-print-v0.3.13]: https://github.com/knurling-rs/defmt/releases/tag/defmt-print-v0.3.13
 [defmt-print-v0.3.12]: https://github.com/knurling-rs/defmt/releases/tag/defmt-print-v0.3.12
@@ -518,10 +519,15 @@ Initial release
 
 ### [defmt-print-next]
 
+* No changes
+
+### [defmt-print-v1.1.0] (2026-01-20)
+
 * [#985] Add `--set-addr` option to actively set the `_SEGGER_RTT` address
 * [#952] Support sending dtr on connection for serial port input
 * [#965] Also support `--log-format=online` or  `--log-format=default`
 * [#986] Bump MSRV to 1.81
+* [#1028] Bump MSRV to 1.83
 
 ### [defmt-print-v1.0.0] (2025-04-01)
 
@@ -609,6 +615,7 @@ Initial release
 * [#986] Bump MSRV to 1.81
 * [#966] Add Frame::fragments() and Frame::display_fragments()
 * [#958] Update to object 0.36
+* [#1028] Bump MSRV to 1.83
 * [#1036] Impl `serde::{Serialize, Deserialize}` and `Clone` on `Table` and related types
 
 ### [defmt-decoder-v1.0.0] (2025-04-01)
@@ -684,6 +691,7 @@ Initial release
 
 * [#956] Link `LICENSE-*` in the crate folder
 * [#986] Bump MSRV to 1.81
+* [#1028] Bump MSRV to 1.83
 
 ### [defmt-parser-v1.0.0] (2025-04-01)
 
@@ -956,11 +964,17 @@ Initial release
 > Runs [`qemu-system-arm`] but decodes [`defmt`] data sent to semihosting
 
 [qemu-run-next]: https://github.com/knurling-rs/defmt/compare/qemu-run-v0.1.0...main
+[qemu-run-v0.1.1]: https://github.com/knurling-rs/defmt/releases/tag/qemu-run-v0.1.1
 [qemu-run-v0.1.0]: https://github.com/knurling-rs/defmt/releases/tag/qemu-run-v0.1.0
 
 ### [qemu-run-next]
 
 * No changes
+
+### [qemu-run-v0.1.1]
+
+* [#1028] Bump MSRV to 1.83
+* [#1028] Use latest `defmt-decoder` (moves location of `(HOST)` in log messages to end of line)
 
 ### [qemu-run-v0.1.0]
 
@@ -991,6 +1005,7 @@ Initial release
 ---
 
 [#1036]: https://github.com/knurling-rs/defmt/pull/1036
+[#1028]: https://github.com/knurling-rs/defmt/pull/1028
 [#1022]: https://github.com/knurling-rs/defmt/pull/1022
 [#1013]: https://github.com/knurling-rs/defmt/pull/1013
 [#1011]: https://github.com/knurling-rs/defmt/pull/1011
