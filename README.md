@@ -27,7 +27,7 @@ This repository contains the following packages:
 
 The minimum supported Rust version is 1.76 (or Ferrocene 24.05) for the crates that cross-compile to your microcontroller. The minimum supported Rust version is 1.83 for all host-side crates.
 
-`defmt` is tested against the latest stable Rust version and the MSRV.
+The `defmt` crates are tested against the latest stable Rust version and the MSRV.
 
 ## Developer Information
 

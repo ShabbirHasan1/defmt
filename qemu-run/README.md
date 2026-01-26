@@ -22,7 +22,7 @@ Run `qemu-run --help` to see a list of other command-line arguments available.
 
 ## MSRV
 
-The minimum supported Rust version is 1.83. `defmt` is tested against the latest stable Rust version and the MSRV.
+The minimum supported Rust version is 1.83. This crate is tested against the latest stable Rust version and the MSRV.
 
 ## Support
 
