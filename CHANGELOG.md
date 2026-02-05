@@ -606,7 +606,7 @@ Initial release
 * [#986] Bump MSRV to 1.81
 * [#966] Add Frame::fragments() and Frame::display_fragments()
 * [#958] Update to object 0.36
-* [#1033] Impl `serde::{Serialize, Deserialize}` and `Clone` on `Table` and related types
+* [#1036] Impl `serde::{Serialize, Deserialize}` and `Clone` on `Table` and related types
 
 ### [defmt-decoder-v1.0.0] (2025-04-01)
 
@@ -987,7 +987,7 @@ Initial release
 
 ---
 
-[#1033]: https://github.com/knurling-rs/defmt/pull/1033
+[#1036]: https://github.com/knurling-rs/defmt/pull/1036
 [#1022]: https://github.com/knurling-rs/defmt/pull/1022
 [#1013]: https://github.com/knurling-rs/defmt/pull/1013
 [#1011]: https://github.com/knurling-rs/defmt/pull/1011
